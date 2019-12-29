@@ -48,6 +48,7 @@ def first_n_primes_sum(n):
 
 if __name__ == '__main__':
     start_time = time.time()
+    print(first_n_primes_sum(2E6))
     elapsed_time = time.time() - start_time
 
 
